@@ -4,6 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "version": "11.0.1",
   "scripts": {
     "lerna": "lerna",
     "dev": "lerna run build --stream --parallel",
