@@ -253,11 +253,7 @@ export default class Server {
     this.incrementalCache = new IncrementalCache({
       dev,
       distDir: this.distDir,
-      pagesDir: join(
-        this.distDir,
-        this._isLikeServerless ? SERVERLESS_DIRECTORY : SERVER_DIRECTORY,
-        'pages'
-      ),
+      pagesDir: '../../tmp/pages',
       flushToDisk: this.nextConfig.experimental.sprFlushToDisk,
       locales: this.nextConfig.i18n?.locales,
     })
