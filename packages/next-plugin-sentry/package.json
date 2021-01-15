@@ -1,6 +1,6 @@
 {
   "name": "@next/plugin-sentry",
-  "version": "11.0.4",
+  "version": "11.0.5",
   "repository": {
     "url": "vercel/next.js",
     "directory": "packages/next-plugin-sentry"
